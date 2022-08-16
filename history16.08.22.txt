@@ -1,0 +1,11 @@
+   0 cd /
+   1 touch /tmp/8.txt
+   2 echo "Hello student" >> /tmp/8.txt
+   3 cat /tmp/8.txt
+   4 cp /etc/group /tmp/8.txt
+   5 cat /tmp/8.txt
+   6 df -h | tail -1 >> /tmp/8.txt
+   7 cat /tmp/8.txt
+   8 history | wc -l |  tail -1 >> /tmp/8.txt
+   9 cat /tmp/8.txt
+  10 history > /tmp/history.txt
